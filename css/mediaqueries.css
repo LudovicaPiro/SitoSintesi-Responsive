@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*HOMEPAGE PHONE-----------------------------------------------------------------------------*/
+@media (max-width: 576px) {
+	
+	.margin-fifty {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	.margin-hundred {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	/*barra navigazione*/
+	.bar-menu {
+		margin-top: 0rem;
+		padding-right: 0.2rem;
+		font-size: 14px;
+	}
+	
+	#set-jetters-logo {
+	width: 100px;
+}
+	
+	.textbar {
+		display: none;
+	}
+	
+	#icon-backpack {
+		padding-right: 10px;
+	}
+	
+	/*cover video*/
+	.cover {
+		padding-top: 11rem;
+	}
+	
+	#main-title {
+		font-size: 50px;
+		line-height: 4rem;
+	}
+
+	#main-subtitle {
+		font-size: 28px;
+	}
+	
+	/*category*/
+	.section-title {
+		font-size: 24px;
+	}
+	
+	#CategoryContainer {
+		padding-top: 100px;
+		height: auto;
+		padding-bottom: 100px;
+	}
+	
+	.categoryBt {
+		font-size: 35px;
+		font-weight: 400;
+		width: 100%;
+		height: 170px;
+		/*margin-top: 2rem;*/
+		line-height: 45px;
+		color: #fff;
+		border: none;
+		padding: 15px 15px 15px 15px;
+	}
+	
+	.makeimg {
+		background-image:
+		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
+		url('../assets/images/category01small.jpg');
+	}
+	
+	.leaveimg {
+		background-image:
+		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
+		url('../assets/images/category02small.jpg');
+	}
+	
+	.swimimg {
+		background-image:
+		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
+		url('../assets/images/category03small.jpg');
+	}
+	
+	.feelimg{
+		background-image:
+		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
+		url('../assets/images/category04small.jpg');
+	}
+	
+	.categoryDiv{
+		margin-top: 2rem;
+		width: 100%;
+		position: relative;
+		color: #fff;
+		border: none;
+	}
+	
+	.categoryDescr {	
+		display: none;
+		width: 100%;
+		margin-top: 0rem;
+		
+	}	
+	
+	.dropdownTxt {
+		font-size: 15px;
+		opacity: 1;
+		display: none;
+		
+	}
+	
+	/*principles*/
+	.principle-text {
+		margin-top: 0rem;
+		font-size: 15px;
+		line-height: 22px;
+	}
+	
+	.icon-principle {
+		height: 60px;
+	}
+	
+	.single-principle {
+		margin-top: 3rem;
+	}
+	
+	/*most loved tours*/
+	.activitiycard {
+		margin-bottom: 30px;
+	}
+	
+	/*footer*/
+	.about {
+		margin-bottom: 2rem;
+	}
+	
+	.contact {
+		margin-bottom: 3rem;
+	}
+	
+	.newsletter {
+		margin-bottom: 0rem;
+	}
+	
+	#subscribe {
+		margin-left: 0rem;
+		margin-top: 0.5rem;
+	}
+	
+}
+
+/*HOMEPAGE TABLET----------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px){
+	
+	.margin-hundred {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	
+	.margin-fifty {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	
+	/*barra navigazione*/
+	#set-jetters-logo {
+		width: 100px;
+	}
+	
+	/*cover video*/
+	.cover {
+		padding-top: 45%;
+	}
+	
+	#main-title {
+		font-size: 80px;
+		line-height: 6rem;
+	}
+
+	#main-subtitle {
+		font-size: 45px;
+	}
+	
+	/*category*/
+	#CategoryContainer {
+		padding-top: 130px;
+		padding-bottom: 150px;
+		height: auto;
+	}
+	
+	.categoryBt {
+		font-size: 35px;
+		font-weight: 400;
+		width: 100%;
+		height: 250px;
+		/*margin-top: 2rem;*/
+		line-height: 45px;
+		color: #fff;
+		border: none;
+		padding: 25px 25px 25px 25px;
+	}
+	
+	.makeimg {
+		background-image:
+		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
+		url('../assets/images/category01small.jpg');
+	}
+	
+	.leaveimg {
+		background-image:
+		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
+		url('../assets/images/category02small.jpg');
+	}
+	
+	.swimimg {
+		background-image:
+		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
+		url('../assets/images/category03small.jpg');
+	}
+	
+	.feelimg{
+		background-image:
+		linear-gradient(180deg, rgba(0, 0, 0, 0)0%, rgba(0,0,0,0.7)100%),
+		url('../assets/images/category04small.jpg');
+	}
+	
+	.categoryDiv{
+		margin-top: 2rem;
+		width: 100%;
+		position: relative;
+		color: #fff;
+		border: none;
+	}
+	
+	.categoryDescr {	
+		display: none;
+		width: 100%;
+		margin-top: 0rem;
+		
+	}
+	
+	/*most loved tours*/
+	.activitiycard {
+		margin-bottom: 30px;
+	}
+	
+	/*footer*/
+	#subscribe {
+		margin-left: 0rem;
+		margin-top: 0.5rem;
+	}	
+}
+
+
+/*HOMEPAGE RISERVA MEGLIO NON USARE SE POSSILE-----------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px){
+	
+	/*footer*/
+	.newsletter {
+		margin-top: 1rem;
+	}
+	
+}
