@@ -432,6 +432,17 @@
 /*ABOUT PHONE-----------------------------------------------------------------------------*/
 @media (max-width: 576px) {
 
+	.margin-fifty {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.margin-hundred {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+
 	.about-margin{
 		margin-left: 10px;
 		margin-right: 10px;
@@ -456,7 +467,7 @@
 	 margin-top: 0rem;
  	 font-size: 15px;
  	 line-height: 22px;
-	 font-weight: 400;
+	 font-weight: 300;
 	}
 
 		.carousel-margin-about{
@@ -482,7 +493,7 @@
 
 	.centeredtextabout2 {
   position: absolute;
-  top: 90%;
+  top: 80%;
   left: 35%;
   transform: translate(-50%, -50%);
 }
@@ -490,8 +501,8 @@
 
 .centeredtextabout3 {
   position: absolute;
-  top: 90%;
-  left: 40%;
+  top: 80%;
+  left: 39%;
   transform: translate(-50%, -50%);
 }
 
@@ -500,7 +511,7 @@
 	margin-top: 0rem;
   font-size: 14px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 
@@ -509,6 +520,36 @@
 	line-height: 25px;
 	font-weight: 700;
 	text-align: right;
+}
+
+.textabout3 {
+	font-size: 16px;
+	line-height: 27px;
+	font-weight: 700;
+	text-align: right;
+}
+
+#image-about {
+  /* width: 500px; */
+  height: auto;
+  /* margin-right: 1.25rem; */
+  opacity: 1;
+	padding-bottom: 8%;
+}
+
+.descriptionabout-margin {
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0%;
+}
+
+
+.about-distance-protocol{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
@@ -522,10 +563,18 @@
 	/* Mobile */
 	@media (max-width: 576px){
 
+/*
+		.margin-fifty {
+			margin-left: 10px;
+			margin-right: 10px;
+		} */
+
+
 		/*general*/
 		.mobile-padding {
 			padding-left: 0.3rem;
 			padding-right: 0.3rem;
+			padding-top: 3rem;
 		}
 
 
@@ -694,7 +743,10 @@
 /*ABOUT PAGE TABLET----------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 1024px){
 
-
+		.margin-fifty {
+			margin-left: 25px;
+			margin-right: 25px;
+		}
 
 		.about-margin{
 		margin-left: 10px;
@@ -720,8 +772,85 @@
 	 margin-top: 0rem;
  	 font-size: 15px;
  	 line-height: 22px;
-	 font-weight: 400;
+	 font-weight: 300;
 	}
+
+
+		.carousel-margin-about{
+			margin-left: 50px;
+			margin-right: 0px;
+			margin-top: 50px;}
+
+	/* .row-arrow-about {
+	position:absolute;
+	top:92.5%;
+	left:91.5%;
+	} */
+	.row-arrow-about {
+	position:absolute;
+	top:92.5%;
+	left:85.5%;
+	}
+	/* .row-arrow-about {
+	position:absolute;
+	top:89.5%;
+	left:86.6%;
+	} */
+
+	.centeredtextabout {
+  	position: absolute;
+  	top: 60%;
+  	left: 40%;
+  	transform: translate(-50%, -50%);}
+
+	.centeredtextabout2 {
+  position: absolute;
+  top: 80%;
+  left: 35%;
+  transform: translate(-50%, -50%);}
+
+.centeredtextabout3 {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  transform: translate(-50%, -50%);}
+
+	.textabout {
+	margin-top: 0rem;
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 300;}
+
+	ul {
+	list-style: none;
+	font-size: 20px;
+	padding-left: 0rem;
+	margin-right: 0rem;
+	margin-left: 0rem;}
+.ul-b{
+	font-weight: 800;}
+
+#image-about {
+  /* width: 500px; */
+  height: 375px;
+  /* margin-right: 1.25rem; */
+  opacity: 1;
+	padding-bottom: 10%;
+}
+
+.about-distance-protocol{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+}
+
+/*MEGLIO NON USARE SE POSSILE-- aABOUT IPAD NORMALE-----------------------------------------------*/
+@media (min-width: 768px) and (max-width: 992px){
+
 
 		.carousel-margin-about{
 			margin-left: 0px;
@@ -729,51 +858,37 @@
 			margin-top: 50px;}
 
 
-		.row-arrow-about {
-		position:absolute;
-		top:89.5%;
-		left:86.6%;
-		}
-
-	.centeredtextabout {
-  	position: absolute;
-  	top: 60%;
-  	left: 40%;
-  	transform: translate(-50%, -50%);
-}
+			.row-arrow-about {
+			position:absolute;
+			top:92.5%;
+			left:91.5%;
+			}
+	#image-about {
+	  /* width: 500px; */
+	  height: auto;
+	  /* margin-right: 1.25rem; */
+	  opacity: 1;
+		padding-bottom: 10%;
+	}
 
 	.centeredtextabout2 {
-  position: absolute;
-  top: 90%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-}
-
+	position: absolute;
+	top: 80%;
+	left: 25%;
+	transform: translate(-50%, -50%);}
 
 .centeredtextabout3 {
-  position: absolute;
-  top: 90%;
-  left: 40%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	transform: translate(-50%, -50%);}
 }
 
-		.textabout {
-	margin-top: 0rem;
-  font-size: 26px;
-  line-height: 40px;
-  font-weight: 400;
-}
-
-	ul {
-	list-style: none;
-	font-size: 20px;
-	padding-left: 0rem;
-	margin-right: 0rem;
-	margin-left: 0rem;
-}
-.ul-b{
-	font-weight: 800;
-}
-
-
+/*ABOUT PROIETTORE-----------------------------------------------*/
+@media (min-width: 1200px) and (max-width: 1400px){
+	.row-arrow-about {
+	position:absolute;
+	top:92.5%;
+	left:82.4%;
+	}
 }
