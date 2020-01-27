@@ -467,8 +467,10 @@
 
 		.row-arrow-about {
 		position:absolute;
-		top:89.5%;
-		left:86.6%;
+		/* top:89.5%;
+		left:86.6%; */
+		top:86.5%;
+		left:80.8%;
 		}
 
 	.centeredtextabout {
