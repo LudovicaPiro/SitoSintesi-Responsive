@@ -9,6 +9,7 @@
 	
 		<!--Link to css files-->
 		<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/mediaqueries.css"/>
 		
 		<!-- link to fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -22,17 +23,22 @@
 			<nav class="container-fluid">
 				<div class="margin-fifty">
 					<div class="row">
-						<a class="col-xl-2" href="../index.html">
+						<a class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2" href="../index.html">
 							<img id="set-jetters-logo" src="../assets/images/Logo_w.png" alt="Set-jetters United logo"/>
 						</a>
 			
-						<div class="offset-xl-5 col-xl-5">
+						<div class="offset-xl-5 offset-lg-4 offset-md-3 offset-sm-5 offset-3 col-xl-5 col-lg-6 col-md-7 col-sm-5 col-7">
 							<div class="row">
-								<a href="behindthescene.html" class="bar-menu offset-xl-4 col-xl-5">BEHIND THE SCENE
-								</a>
-								<a href="javascript:void(0)" class="bar-menu col-xl-3 cartbtn" onclick="openNav()">CART
-									<img id="icon-backpack" src="../assets/images/icon-backpack.png" alt="Icon backpack"/>
-								</a>					
+								<div class="bar-menu offset-xl-2 offset-lg-2 offset-md-0 offset-sm-2 offset-4 col-xl-7 col-lg-7 col-md-8 col-sm-6 col-4">
+									<a class="textbar" href="behindthescene.html">BEHIND THE SCENE</a>
+									<a href="behindthescene.html"><img id="icon-behindscene" src="../assets/images/icon-behindscene.png" alt="Icon backpack"/></a>
+								</div>
+									
+								<div class="bar-menu col-xl-3 col-lg-3 col-md-4 col-sm-3 col-4 cartbtn">
+									<a class="textbar" href="javascript:void(0)" onclick="openNav()">CART</a>
+									<a href="javascript:void(0)" onclick="openNav()"><img id="icon-backpack" src="../assets/images/icon-backpack.png" alt="Icon backpack"/></a>
+								</div>	
+									
 							</div>
 						</div>
 					</div>
@@ -115,7 +121,7 @@
 				<div class="margin-fifty category-all">
 					<div class="row">
 						<!--Category Text-->
-						<article class="category-text col-xl-4">
+						<article class="category-text col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
 							<div class="sticky">
 								<div class="category-title">
 									<p>MAKE YOUR PRESENCE<br>STAND OUT</p>
@@ -124,26 +130,6 @@
 									<p>If you are tired of being a wallflower these are the activities for you. Make memorable experiences, be memorable.</p>
 								</div>
 						
-								<!--Dropdown list - Choose film title-->
-								<!--<div class="dropdown">								
-									<button class="dropbtn">
-										Choose a specific title...
-									
-											<i class="icon fas fa-arrow-down"></i>
-																		
-									</button>
-									<div class="dropdown-content">
-										<a href="#">American Horror Story</a>
-  										<a href="#">Breaking Bad</a>
-  										<a href="#">Game of Thrones</a>
-										<a href="#">Harry Potter</a>
-										<a href="#">Joker</a>
-										<a href="#">Nothing Hill</a>
-										<a href="#">Sex and the City</a>
-										<a href="#">The Blair Witch Project</a>
-										<a href="#">When Harry Met Sally</a>
-									</div>		
-								</div>-->
 						
 								<!--Change category-->
 								<div class="category-choose">
@@ -156,11 +142,11 @@
 						</article>
 				
 						<!--Category Cards-->
-						<article class="category-cards offset-xl-1 col-xl-7">
+						<article class="category-cards offset-xl-1 offset-lg-1 offset-md-1 col-xl-7 col-lg-7 col-md-6">
 						
 							<!--Row #1-->
 							<div class="row margincards">
-								<a href="" class="col-xl-4">
+								<a href="" class="col-xl-4 col-lg-6 col-md-12 col-sm-12 offset-xl-0 offset-md-0 offset-1 col-10 offset-xl-0 offset-md-0 offset-1 activitiycard">
 									<div class="img-hover-zoom">
 										<img class="img-fluid" src="../assets/images/cards/01-americanhorrorstory.jpg" alt="Image not supported">
 										<div class="textabove">
@@ -173,7 +159,7 @@
 									</div>
 								</a>
 									
-								<a href="01-pizza.html" class="col-xl-4">
+								<a href="01-pizza.html" class="col-xl-4 col-lg-6 col-md-12 col-sm-12 offset-xl-0 offset-md-0 offset-1 col-10 offset-xl-0 offset-md-0 offset-1 activitiycard">
 									<div class="img-hover-zoom">
 										<img class="img-fluid" src="../assets/images/cards/01-breakingbad2.jpg" alt="Image not supported">
 										<div class="textabove">
@@ -186,7 +172,7 @@
 									</div>
 								</a>
 								
-								<a href="" class="col-xl-4">
+								<a href="" class="col-xl-4 col-lg-6 col-md-12 col-sm-12 offset-xl-0 offset-md-0 offset-1 col-10 offset-xl-0 offset-md-0 offset-1 activitiycard">
 									<div class="img-hover-zoom">
 										<img class="img-fluid" src="../assets/images/cards/01-got1.jpg" alt="Image not supported">
 										<div class="textabove">
@@ -202,7 +188,7 @@
 
 							<!--Row #2-->
 							<div class="row margincards">
-								<a href="" class="col-xl-4">
+								<a href="" class="col-xl-4 col-lg-6 col-md-12 col-sm-12 offset-xl-0 offset-md-0 offset-1 col-10 offset-xl-0 offset-md-0 offset-1 activitiycard">
 									<div class="img-hover-zoom">
 										<img class="img-fluid" src="../assets/images/cards/01-harrypotter1.jpg" alt="Image not supported">
 										<div class="textabove">
@@ -215,7 +201,7 @@
 									</div>
 								</a>
 									
-								<a href="" class="col-xl-4">
+								<a href="" class="col-xl-4 col-lg-6 col-md-12 col-sm-12 offset-xl-0 offset-md-0 offset-1 col-10 offset-xl-0 offset-md-0 offset-1 activitiycard">
 									<div class="img-hover-zoom">
 										<img class="img-fluid" src="../assets/images/cards/01-joker.jpg" alt="Image not supported">
 										<div class="textabove">
@@ -228,7 +214,7 @@
 									</div>
 								</a>
 								
-								<a href="" class="col-xl-4">
+								<a href="" class="col-xl-4 col-lg-6 col-md-12 col-sm-12 offset-xl-0 offset-md-0 offset-1 col-10 offset-xl-0 offset-md-0 offset-1 activitiycard">
 									<div class="img-hover-zoom">
 										<img class="img-fluid" src="../assets/images/cards/01-nottinghill.jpg" alt="Image not supported">
 										<div class="textabove">
@@ -244,7 +230,7 @@
 						
 							<!--Row #3-->
 							<div class="row">
-								<a href="" class="col-xl-4">
+								<a href="" class="col-xl-4 col-lg-6 col-md-12 col-sm-12 offset-xl-0 offset-md-0 offset-1 col-10 offset-xl-0 offset-md-0 offset-1 activitiycard">
 									<div class="img-hover-zoom">
 										<img class="img-fluid" src="../assets/images/cards/01-sexandthecity.jpg" alt="Image not supported">
 										<div class="textabove">
@@ -257,7 +243,7 @@
 									</div>
 								</a>
 									
-								<a href="" class="col-xl-4">
+								<a href="" class="col-xl-4 col-lg-6 col-md-12 col-sm-12 offset-xl-0 offset-md-0 offset-1 col-10 offset-xl-0 offset-md-0 offset-1 activitiycard">
 									<div class="img-hover-zoom">
 										<img class="img-fluid" src="../assets/images/cards/01-theblairwitchproject.jpg" alt="Image not supported">
 										<div class="textabove">
@@ -270,7 +256,7 @@
 									</div>
 								</a>
 								
-								<a href="" class="col-xl-4">
+								<a href="" class="col-xl-4 col-lg-6 col-md-12 col-sm-12 offset-xl-0 offset-md-0 offset-1 col-10 offset-xl-0 offset-md-0 offset-1 ">
 									<div class="img-hover-zoom">
 										<img class="img-fluid" src="../assets/images/cards/01-whenharrymetsally.jpg" alt="Image not supported">
 										<div class="textabove">
@@ -295,13 +281,13 @@
 				<div class="margin-fifty">
 					<div class="row">
 						<!--Juicy infos about us-->
-						<div class="about col-xl-3">
+						<div class="about col-xl-3 col-lg-5 col-md-8 col-sm-12 col-12">
 							<h6>JUICY INFOS ABOUT US</h6>
 							<p>Set-jetters United is the one and only travel agency where you’ll find the most unique movie and TV series related activities. All of them are selected with the utmost care and love to provide you the very best experience ever.</p>
 						</div>
 					
 						<!--Contact-->
-						<div class="contact offset-xl-1 col-xl-3">
+						<div class="contact offset-xl-1 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
 							<h6>CONTACT</h6>
 							<p>Drop us a line at <a href="" id="info-email">info@setjettersunited.com</a></p>
 							<div class="social-icon">
@@ -312,7 +298,7 @@
 						</div>
 					
 						<!--Keep up to date-->
-						<div class="newsletter col-xl-5">
+						<div class="newsletter col-xl-5 col-lg-4 col-md-12 col-sm-12 col-12">
 							<h6>KEEP UP TO DATE</h6>
 							<form>
 								<input type="text" id="enter-email" value="Enter your email here..." name="email">

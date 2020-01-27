@@ -33,6 +33,9 @@
 		padding-right: 10px;
 	}
 	
+	
+	
+	
 	/*cover video*/
 	.cover {
 		padding-top: 11rem;
@@ -260,11 +263,177 @@
 
 
 /*HOMEPAGE RISERVA MEGLIO NON USARE SE POSSILE-----------------------------------------------*/
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 992px){
 	
 	/*footer*/
 	.newsletter {
 		margin-top: 1rem;
 	}
+}
+
+
+
+/*CATEGORY PAGE PHONE-----------------------------------------------------------------------------*/
+@media (max-width: 576px) {
+	
+	/*left-side*/
+	.category-title {
+		font-size: 45px;
+		line-height: 3.5rem;
+	}
+	
+	.category-text {	
+		font-size: 16px;
+	}
+	
+	.category-choose a {
+		font-size: 16px;
+	}
+	
+	
+	/*cards*/
+	.margincards {
+		margin-bottom: 0px;
+	}
+
+	.category-cards {
+		margin-top: 5rem;
+	}
+
+}
+
+
+/*CATEGORY TABLET----------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+	/*left-side*/
+	.category-title {
+		font-size: 45px;
+		line-height: 3.5rem;
+	}
+	
+	.category-text {	
+		font-size: 16px;
+	}
+	
+	.category-choose a {
+		font-size: 14px;
+	}
+	
+	.margincards {
+		margin-bottom: 0px;
+	}
 	
 }
+
+
+
+/*SINGLE TOUR PAGE PHONE-----------------------------------------------------------------------------*/
+@media (max-width: 576px) {
+
+    /*Text description*/
+    #tot-price {
+        display: inline-block;
+        float: none;
+        margin-top: 2rem;
+    }
+    
+    .btn-detail {
+        display: inline-block;
+        margin-top: 1rem;
+    }
+    
+        /*Add to cart btn*/
+        .addcart-btn {
+            margin-top: 2rem;
+            margin-left: 0px;
+        }
+    
+        /*Calendar*/
+        .dropdown-content-calendar {
+            width: 330px;
+        }
+    
+        .weekdays li {
+            width: 12.5%;
+            font-size: 20px;
+        }
+    
+        .days li {
+            width: 12.5%;
+        }
+    
+    
+    /*Images*/
+    .tour-cards {
+        margin-top: 3rem;
+    }
+    
+    .margincards-singletour {
+        margin-bottom: 2rem;
+    }
+    
+    .category-all {
+        margin-bottom: 5rem; /*5rem = 80px*/
+    }
+    
+    
+    /*Reviews*/
+    #reviews {
+        margin-bottom: 5rem; /*5rem = 80px*/
+    }
+    
+    .marginbottom-review {
+        margin-bottom: 2rem;
+    }
+    
+    
+    /*Carousel*/
+    .carousel {
+        margin-bottom: 70px;
+    }
+    
+}
+
+
+/*SINGLE TOUR PAGE TABLET-----------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    /*Reviews*/
+    .marginbottom-review {
+        margin-bottom: 2rem;
+    }
+    
+    
+    /*Carousel*/
+    .carousel {
+        margin-bottom: 50px;
+    }
+    
+    .freccia {
+        margin-top: 450px;
+    }
+    
+    
+    /*Calendar*/
+    .dropdown-content-calendar {
+        width: 330px;
+    }
+
+    .weekdays li {
+        width: 12.5%;
+        font-size: 20px;
+    }
+    
+    .days li {
+        width: 12.5%;
+    }   
+    
+}
+
+
+
+
+
+
+
