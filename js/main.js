@@ -107,6 +107,47 @@ $(document).ready(function(){
 						$(".dropdown-content").toggle();
 				}
 			);
+
+      //about--------------------------------------------//
+
+        $("#makeyourpresence").hover(
+                      function(){ $(this).css("opacity", "0");
+                            $("#makeyourpresence_hover").css("opacity", "1");
+                            },
+                      function(){ $(this).css("opacity", "1");
+                            $("#makeyourpresence_hover").css("opacity", "0");
+                            }
+                     );
+
+        // ----------------------
+        $(" #feeltheadrenalina").hover(
+                      function(){ $(this).css("opacity", "0");
+                            $("#feeltheadrenalina_hover").css("opacity", "1");
+                            },
+                      function(){ $(this).css("opacity", "1");
+                            $("#feeltheadrenalina_hover").css("opacity", "0");
+                            }
+                     );
+
+        // ----------------------
+        $(" #swimagainst").hover(
+                      function(){ $(this).css("opacity", "0");
+                            $("#swimagainst_hover").css("opacity", "1");
+                            },
+                      function(){ $(this).css("opacity", "1");
+                            $("#swimagainst_hover").css("opacity", "0");
+                            }
+                     );
+
+        // ----------------------
+        $(" #leaveyourmark").hover(
+                      function(){ $(this).css("opacity", "0");
+                            $("#leaveyourmark_hover").css("opacity", "1");
+                            },
+                      function(){ $(this).css("opacity", "1");
+                            $("#leaveyourmark_hover").css("opacity", "0");
+                            }
+                     );
 	
 });
 
