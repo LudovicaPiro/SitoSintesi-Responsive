@@ -1093,7 +1093,8 @@ left:83.5%;
 
 #image-about {
   /* width: 500px; */
-  height: auto;
+  height: 100%;
+	overflow: hidden;
   /* margin-right: 1.25rem; */
   opacity: 1;
 }
@@ -1262,7 +1263,7 @@ a.containerabout:hover {
 			margin-left: 0px;
 			margin-right: 60px;
 			margin-top: 50px;
-			margin-bottom: 130px;
+			margin-bottom: 155px;
 			padding-left: 0px;
 			padding-right: 0px;
 		}

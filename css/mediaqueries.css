@@ -537,6 +537,13 @@
 	padding-bottom: 8%;
 }
 
+.descriptionabout {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  text-align: right;
+}
+
 .descriptionabout-margin {
 	margin-left: 0%;
 	margin-right: 0%;
@@ -846,6 +853,15 @@
 	padding-right: 0px;
 }
 
+
+.descriptionabout {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 300;
+  /* text-align: right; */
+}
+
+
 }
 
 /*MEGLIO NON USARE SE POSSILE-- aABOUT IPAD NORMALE-----------------------------------------------*/
@@ -891,4 +907,14 @@
 	top:92.5%;
 	left:82.4%;
 	}
+
+	.margin-bottom-about{
+		margin-left: 0px;
+		margin-right: 60px;
+		margin-top: 50px;
+		margin-bottom: 215px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
 }
