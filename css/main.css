@@ -1038,6 +1038,14 @@ left:83.5%;
 /*	margin-top: 3%;*/
 }
 
+.textabout-margin-subtitle{
+	margin-left: 0%;
+	margin-right: 0%;
+    margin-top: 45px;
+/*	margin-top: 3%;*/
+}
+
+
 .white-about {color:#FFFFFF; }
 
 /* about -------------------------------------------------------------------------------*/
@@ -1270,7 +1278,7 @@ a.containerabout:hover {
 		.margin-bottom-about{
 			margin-left: 0px;
 			margin-right: 60px;
-			margin-top: 50px;
+			margin-top: 35px;
 			margin-bottom: 55px;
 			padding-left: 0px;
 			padding-right: 0px;
