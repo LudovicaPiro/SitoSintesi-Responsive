@@ -1050,6 +1050,14 @@ left:83.5%;
 }
 
 
+.category-subtitle-about {
+	font-size: 30px;
+	font-weight: 800;
+	color: #F39200;
+}
+
+
+
 .titleabout {
   font-size: 1.25rem;
   line-height: 1.4375rem;
@@ -1263,7 +1271,7 @@ a.containerabout:hover {
 			margin-left: 0px;
 			margin-right: 60px;
 			margin-top: 50px;
-			margin-bottom: 155px;
+			margin-bottom: 55px;
 			padding-left: 0px;
 			padding-right: 0px;
 		}

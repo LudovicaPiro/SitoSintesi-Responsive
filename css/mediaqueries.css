@@ -864,7 +864,7 @@
 
 }
 
-/*MEGLIO NON USARE SE POSSILE-- aABOUT IPAD NORMALE-----------------------------------------------*/
+/*MEGLIO NON USARE SE POSSILE--ABOUT IPAD NORMALE-----------------------------------------------*/
 @media (min-width: 768px) and (max-width: 992px){
 
 
@@ -873,12 +873,12 @@
 			margin-right: 0px;
 			margin-top: 50px;}
 
-
 			.row-arrow-about {
 			position:absolute;
 			top:92.5%;
 			left:91.5%;
 			}
+
 	#image-about {
 	  /* width: 500px; */
 	  height: auto;
@@ -912,7 +912,7 @@
 		margin-left: 0px;
 		margin-right: 60px;
 		margin-top: 50px;
-		margin-bottom: 215px;
+		margin-bottom: 114px;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
